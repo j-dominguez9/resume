@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOX ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/me.jpg" type="image/jpg">
+
+  <title>Joaquin Dominguez</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav_logo">Joaquin Dominguez</a>
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link active-link">
+              <i class='bx bx-home nav_icon'></i>Home
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#profile" class="nav_link">
+              <i class='bx bx-user nav_icon'></i>Profile
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#education" class="nav_link">
+              <i class='bx bx-book nav_icon'></i>Education
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#skills" class="nav_link">
+              <i class='bx bx-receipt nav_icon'></i>Skills
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#experience" class="nav_link">
+              <i class='bx bx-briefcase-alt nav_icon'></i>Experience
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#certificate" class="nav_link">
+              <i class='bx bx-award nav_icon'></i>Certificate
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#references" class="nav_link">
+              <i class='bx bx-link-external nav_icon'></i>References
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav_toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main bd-container">
+    <!-- All elements within this div, is generated in PDF -->
+    <div class="resume" id="area-cv">
+      <div class="resume__left">
+        <!-- HOME -->
+        <section class="home" id="home">
+          <div class="home_containter section bd-grid">
+            <div class="home_data bd-grid">
+              <img src="assets/img/me.jpg" alt="" class="home_img center">
+              <h1 class="home_title">Joaquin <b>Dominguez</b></h1>
+              <h3 class="home_profession">Data Scientist</h3>
+              <!-- Button to generate and download the pdf. Available for desktop. -->
+              <div>
+                <a download="" href="assets/pdf/Joaquin-resume.pdf" class="home_button-movil">Download</a>
+              </div>
+            </div>
+            <div class="home_address bd-grid">
+              <span class="home_information">
+                <i class="bx bx-map"> &nbsp; </i> New Haven, CT
+              </span>
+              <span class="home_information">
+                <i class="bx bx-envelope"> &nbsp; </i> joaquin.dominguez@pm.me
+              </span>
+              <span class="home_information">
+                <i class="bx bx-phone"> &nbsp; </i> (970) 710-1235
+              </span>
+            </div>
+          </div>
+
+          <!-- Theme change button -->
+          <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+          <!-- Button to generate and download the pdf. Available for desktop -->
+          <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+        </section>
+
+        <!-- SOCIAL -->
+        <section class="social section">
+          <h2 class="section-title">SOCIAL</h2>
+          <div class="social_container bd-grid">
+            <a href="https://www.linkedin.com/in/joaquin-dominguez1992/" target="_blank" class="social_link">
+              <i class="bx bxl-linkedin-square social_icon"></i> @joaquin-dominguez1992
+            </a>
+            <a href="https://github.com/j-dominguez9" target="_blank" class="social_link">
+              <i class="bx bxl-github social_icon"></i> @j-dominguez9
+            </a>
+            <a href="https://twitter.com/Joaquinmsds" target="_blank" class="social_link">
+              <i class="bx bxl-twitter social_icon"></i> @joaquinmsds
+            </a>
+          </div>
+        </section>
+        <!-- PROFILE -->
+        <section class="profile section" id="profile">
+          <h2 class="section-title">Profile</h2>
+          <p class="profile_description">
+            Versatile individual with experience collecting, transforming, and organizing data for analysis to help make informed decisions. Excellent understanding and proficiency of platforms for effective data analyses, including SQL,
+            spreadsheets, Tableau, R and D3. Strong communication, organizational, and analytical skills.
+          </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="education section" id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="education_container bd-grid">
+            <div class="education_content">
+              <div class="education_time">
+                <span class="education_rounder"></span>
+                <span class="education_line"></span>
+              </div>
+              <div class="education_data bd-grid">
+                <h3 class="education_title">Master of Science, Data Science</h3>
+                <span class="education_studies">Southern Methodist University</span>
+                <span class="education_year">2021 - 2023</span>
+              </div>
+            </div>
+            <div class="education_content">
+              <div class="education_time">
+                <span class="education_rounder"></span>
+                <span class="education_line"></span>
+              </div>
+              <div class="education_data bd-grid">
+                <h3 class="education_title">Master of Arts, Government Extension Studies</h3>
+                <span class="education_studies">Harvard University</span>
+                <span class="education_year">2018 - 2020</span>
+              </div>
+            </div>
+            <div class="education_content">
+              <div class="education_time">
+                <span class="education_rounder"></span>
+                <!-- <span class="education_line"></span> -->
+              </div>
+              <div class="education_data bd-grid">
+                <h3 class="education_title">Bachelor of Science, Psychology</h3>
+                <span class="education_studies">Colorado State University</span>
+                <span class="education_year">2011 - 2015</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SKILLS  -->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills_content bd-grid">
+            <ul class="skills_data">
+              <li class="skills_name">
+                <span class="skills_circle"></span> R
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span> Python
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span> SQL
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span> JavaScript
+              </li>
+            </ul>
+            <ul class="skills_data">
+              <li class="skills_name">
+                <span class="skills_circle"></span> D3
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>CSS
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>JavaScript
+              </li>
+              <li class="skills_name">
+                <span class="skills_circle"></span>JAVA
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="resume__right">
+        <!-- EXPERIENCE -->
+        <section class="experience section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <div class="experience_container bd-grid">
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">Financial Advisor</h3>
+                <span class="experience_company">August 2020 - August 2021 | <a href="https://nortwesternmutual.com">Northwestern Mutual, New Haven, CT</a> </span>
+                <p class="experience_description">
+                  <li>Assisted individuals and businesses in meeting their financial goals by employing a comprehensive financial planning process.</li>
+                  <li>Specialized in investment risk management, debt management, insurance, and retirement planning.</li>
+
+                </p>
+              </div>
+            </div>
+
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">Program Administrator</h3>
+                <span class="experience_company">January 2018 - June 2018 | <a href="https://www.bu.edu/africa/">African Studies Center, Boston University</a></span>
+                <p class="experience_description">
+                  <li>Coordinated university academic and social events</li>
+                  <li>Consolidated and drafted federal grant compliance reports</li>
+                  <li>Developed analytic reports to showcase Center activities and achievements as part of the 2018-2022 Title VI Federal Grant Application</li>
+                </p>
+              </div>
+            </div>
+
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <span class="experience_line"></span>
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">Stakeholder Services Specialist</h3>
+                <span class="experience_company">August 2017 - December 2017 | <a href="https://www.cfp.net/">CFP Board, Washington, D.C.</a></span>
+                <p class="experience_description">
+                  <li>Analyzed problems and adjusted work procedures to maximize efficiency</li>
+                  <li>Maintained correspondence with 90+ stakeholders daily</li>
+                  <li>Implemented novel ways to make the financial planner certification process more efficient</li>
+                </p>
+              </div>
+            </div>
+
+            <div class="experience_content">
+              <div class="experience_time">
+                <span class="experience_rounder"></span>
+                <!--<span class="experience_line"></span>-->
+              </div>
+              <div class="experience_data bd-grid">
+                <h3 class="experience_title">Paralegal/Office Manager</h3>
+                <span class="experience_company">January 2017 - July 2017 | <a href="https://www.tommartinlaw.com/">Law Office of Thomas W. Martin, Fort Collins, CO</a></span>
+                <p class="experience_description">
+                  <li>Drafted and filed client documentation to court</li>
+                  <li>Maintained correspondence with new and existing clients</li>
+                  <li>Managed all files and scheduling for office</li>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- CERTIFICATES -->
+        <section class="certificate section" id="certificate">
+          <h2 class="section-title">Certificates</h2>
+          <div class="certificate_container bd-grid">
+            <div class="certificate_content">
+              <h3 class="certificate_title">Google Data Analytics - 2021</h3>
+              <p class="certificate_description">
+                Completed Google’s rigorous hands-on program that covers the entire scope of the data analysis process
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- REFERENCES -->
+        <section class="references section" id="references">
+          <h2 class="section-title">References</h2>
+          <div class="references_container bd-grid">
+            <div class="references_content bd-grid">
+              <span class="references_subtitle">Professor</span>
+              <h3 class="references_title">Dr. Bivin Sadler</h3>
+              <ul class="references_contact">
+                <li>Statistics, Data Science</li>
+                <li>Southern Methodist University</li>
+                <li>Email: bsadler@mail.smu.edu</li>
+              </ul>
+            </div>
+            <div class="references_content bd-grid">
+              <span class="references_subtitle">Professor</span>
+              <h3 class="references_title">Dr. Sasha Sparsha</h3>
+              <ul class="references_contact">
+                <li>Thesis Advisor, Government</li>
+                <li>Harvard University</li>
+                <li>Email: saha@fas.harvard.edu</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- LANGUAGES -->
+        <section class="languages section">
+          <h2 class="section-title">Languages</h2>
+          <div class="languages_container">
+            <ul class="languages_content bd-grid">
+              <li class="languages_name">
+                <span class="languages_circle"></span> English
+              </li>
+              <li class="languages_name">
+                <span class="languages_circle"></span> Spanish
+              </li>
+              <li class="languages_name">
+                <span class="languages_circle"></span> French
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- INTERESTS -->
+        <section class="interests section">
+          <h2 class="section-title">Interests</h2>
+          <div class="interests_container bd-grid">
+            <div class="interests_content">
+              <i class='bx bxs-music interests_icon'></i>
+              <span class="interests_name">Music</span>
+            </div>
+            <div class="interests_content">
+              <i class='bx bxs-book interests_icon'></i>
+              <span class="interests_name">Reading</span>
+            </div>
+            <div class="interests_content">
+              <i class="bx bxs-plane-alt interests_icon"></i>
+              <span class="interests_name">Traveling</span>
+            </div>
+            <div class="interests_content">
+              <i class="bx bxs-bowl-hot interests_icon "></i>
+              <span class="interests_name">Cooking</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- SCROLL TOP -->
+  <a href="#" class="scrolltop" id="scrolltop">
+    <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+  </a>
+
+  <!-- HTML2PDF -->
+  <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+</body> <br>
+
+</html>
