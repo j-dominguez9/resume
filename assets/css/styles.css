@@ -480,6 +480,30 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+a:link {
+  color: rgb(104, 106, 104);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(88, 87, 87);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(72, 1, 1);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(11, 0, 61);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* SKILLS AND LANGUAGES */
 .skills_content,
 .languages_content {
