@@ -569,6 +569,7 @@ a:active {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-bottom: .25rem;
+  align-items: right;
 }
 
 .interests_name {
